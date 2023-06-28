@@ -15,7 +15,7 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi I'm Thong welcome to my website. Have a good day</p>
           </div>
-          <div className="">
+          <div className="text-gray-300 text-justify">
             <p>
               I'm Front-end Developer I'm building and deploy website on browser
               and I can design UX/UI to creative website. So if you interested

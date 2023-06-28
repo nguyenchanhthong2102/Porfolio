@@ -10,9 +10,9 @@ const Home = () => {
           Nguyen Chanh Thong
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm Front-end Developer
+          Front-end Developer
         </h2>
-        <p className=" text-[#8892b0] py-4 max-w max-w-[700px]">
+        <p className=" text-gray-300 text-justify py-4 max-w max-w-[700px]">
           I'm Front-end Developer I'm building and deploy website on browser and
           I can design UX/UI to creative website. So if you interested in me
           please click button and give me information to disscus each other
