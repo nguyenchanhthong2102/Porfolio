@@ -1,5 +1,8 @@
 import React from "react";
 import Working from "../assets/project.jpg";
+import Working2 from "../assets/project2.jpg";
+import Working3 from "../assets/project3.jpg";
+
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -21,12 +24,68 @@ const Work = () => {
               </span>
               <div>
                 <a href="https://pizzapage.vercel.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700  font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
                   href="https://github.com/nguyenchanhthong2102/Pizzapage"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Working2})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                JS Application
+              </span>
+              <div>
+                <a
+                  href="https://nguyenchanhthong2102.github.io/Music/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700  font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/nguyenchanhthong2102/Music"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Working3})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                JS Application
+              </span>
+              <div>
+                <a
+                  href="https://nguyenchanhthong2102.github.io/VR-demo/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700  font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/nguyenchanhthong2102/VR-demo"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
