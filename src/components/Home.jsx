@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
@@ -18,12 +19,14 @@ const Home = () => {
           please click button and give me information to disscus each other
         </p>
         <div>
-          <button className="border-2 text-white px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
+          <Link to="work" smooth={true} duration={500}>
+            <button className="border-2 text-white px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+              View Work
+              <span className="hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
